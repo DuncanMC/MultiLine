@@ -12,9 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(NSLocalizedString("foo", value: "foo", comment: "comment"))
-
     }
-
-
 }
 

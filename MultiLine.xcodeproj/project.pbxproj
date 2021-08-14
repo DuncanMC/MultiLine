@@ -15,6 +15,7 @@
 		AE31730526C745A7003CA59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE31730326C745A7003CA59F /* LaunchScreen.storyboard */; };
 		AE31731026C745A7003CA59F /* MultiLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31730F26C745A7003CA59F /* MultiLineTests.swift */; };
 		AE31731B26C745A7003CA59F /* MultiLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE31731A26C745A7003CA59F /* MultiLineUITests.swift */; };
+		AE31733126C746A8003CA59F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE31733026C746A8003CA59F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		AE31731626C745A7003CA59F /* MultiLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE31731A26C745A7003CA59F /* MultiLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineUITests.swift; sourceTree = "<group>"; };
 		AE31731C26C745A7003CA59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE31732C26C74646003CA59F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		AE31733026C746A8003CA59F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				AE31730126C745A7003CA59F /* Assets.xcassets */,
 				AE31730326C745A7003CA59F /* LaunchScreen.storyboard */,
 				AE31730626C745A7003CA59F /* Info.plist */,
+				AE31733026C746A8003CA59F /* Localizable.strings */,
 			);
 			path = MultiLine;
 			sourceTree = "<group>";
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE31730526C745A7003CA59F /* LaunchScreen.storyboard in Resources */,
+				AE31733126C746A8003CA59F /* Localizable.strings in Resources */,
 				AE31730226C745A7003CA59F /* Assets.xcassets in Resources */,
 				AE31730026C745A6003CA59F /* Main.storyboard in Resources */,
 			);
@@ -300,6 +305,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE3172FF26C745A6003CA59F /* Base */,
+				AE31732C26C74646003CA59F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

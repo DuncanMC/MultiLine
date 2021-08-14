@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  MultiLine
+
+  Created by Duncan Champney on 8/13/21.
+  
+*/
+"foo" = "This
+is
+a
+multi-line
+string";
